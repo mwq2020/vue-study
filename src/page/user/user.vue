@@ -1,7 +1,9 @@
 <template>
   <div>
     <head-top></head-top>
-    this is user page
+    
+    <p>this is user page</p>
+    
     <router-link to="/home">去首页</router-link>
 
     <foot-guide></foot-guide>
