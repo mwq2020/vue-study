@@ -6,6 +6,8 @@
 
 
     <h2>this is home page</h2>
+    <hr/>
+    <h2>{{message}}</h2>
     <router-link to="/user">去用户中心</router-link>
 
 
@@ -23,8 +25,7 @@
   export default {
       data(){
           return{
-              guessCity: '',   //当前城市
-              guessCityid: '', //当前城市id
+              message: 'hello vue',   //当前城市
           }
       },
       //指定组件必须
